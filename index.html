@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MiiMart</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: url('https://wallpapercave.com/wp/wp2757874.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: rgb(55, 0, 255);
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px 20px;
+      background: rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(10px);
+    }
+
+    header h1 {
+      font-size: 60px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 18px;
+      color: #080657;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px;
+      background: rgb(25, 0, 248);
+      backdrop-filter: blur(10px);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav a {
+      color: rgb(0, 162, 255);
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #00ffff;
+    }
+
+    .section {
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 30px;
+      background: rgba(68, 0, 255, 0.15);
+      border-radius: 12px;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 8px 32px rgb(45, 31, 172);
+      border: 1px solid rgba(0, 140, 255, 0.3);
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      font-size: 32px;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .product {
+      background: rgb(163, 241, 255);
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      backdrop-filter: blur(8px);
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .product h3 {
+      margin-bottom: 10px;
+    }
+
+    .product p {
+      font-size: 14px;
+      color: #1814ff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgb(28, 17, 189);
+      backdrop-filter: blur(10px);
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>MiiMart</h1>
+    <p>Your one-stop shop for everything Wii, Mii, and motion-controlled madness.</p>
+  </header>
+
+  <nav>
+    <a href="#products">Products</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="products" class="section">
+    <h2>Featured Products</h2>
+    <div class="products">
+      <div class="product">
+        <h3>Mii Maker Deluxe</h3>
+        <p>Create chaotic Miis with extra eyebrows and questionable fashion choices.</p>
+      </div>
+      <div class="product">
+        <h3>Wii Remote Pro</h3>
+        <p>Now with turbo mode and built-in snack dispenser. Batteries not included.</p>
+      </div>
+      <div class="product">
+        <h3>Nunchuk Necklace</h3>
+        <p>Fashion meets function. Swing your style and your sword.</p>
+      </div>
+      <div class="product">
+        <h3>Wii Sports 3000</h3>
+        <p>Includes Bowling, Tennis, and Existential Crisis Mode.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Wiimart</h2>
+    <p>Founded in a virtual plaza in 2006,MiiMaret is the bestii-themed nonsense. Whether you're looking for nostalgic accessories or absurd Mii merch, we've got you covered. Our mission: to bring joy, chaos, and motion controls to every living room.</p>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>Questions? Comments? Want to return a Wii Remote that flew through your TV? Reach out at <strong>support@miimart</strong> or visit our virtual help desk in the Mii Channel.</p>
+  </section>
+
+  <footer>
+    &copy; 2025 MIIMART ALL RIGHTS REVERSED. IF STOLEN, YOU'LL BE YELLED BY MIIMAKERTV24!!!!
+  </footer>
+
+</body>
+</html>
